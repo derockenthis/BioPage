@@ -34,7 +34,7 @@ figure{
     left:22%;
 }
 .fig1 img{
-    width:100px
+    max-width:100px
 }
 .fig2{
     top:58%;
@@ -51,7 +51,7 @@ figure{
     width:100px
 }
 .fig4{
-    top:25%;
+    top:27%;
     left:22%;
 }
 .fig4 img{
@@ -79,35 +79,35 @@ h3{
         font-size:25px
     }
     .fig1{
-        top:38%;
+        top:45%;
         left:2%;
     }
     .fig1 img{
         width:50px;
     }
     .fig2{
-        top:53%;
+        top:58%;
         left:20%;
     }
     .fig2 img{
         width:50px;
     }
     .fig3{
-        top:12%;
+        top:16%;
         left:18%;
     }
     .fig3 img{
         width:50px;
     }
     .fig4{
-        top:25%;
+        top:28%;
         left:6%;
     }
     .fig4 img{
         width:50px;
     }
     .prof{
-        top:32%;
+        top:35%;
         left:55%
     }
     .imgCont{
