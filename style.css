@@ -4,6 +4,7 @@ a{
 body{
     background-color: #8D99AE;
     font-family: 'Courier New', Courier, monospace;
+    color:white
 }
 figure{
     overflow: hidden;
@@ -12,28 +13,98 @@ figure{
     flex-direction: column;
     align-items: center;
 }
-@media screen and (max-width:800px){
+.imgCont{
+    
+    text-align: center;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    overflow:hidden;
+    border:solid;
+    border-color: white;
+}
+.profimage{
+    /* border-radius: 50%; */
+    width:100px;
+    height:100px;
+    object-fit:cover;
+}
+.fig1{
+    top:42%;
+    left:22%;
+}
+.fig1 img{
+    width:100px
+}
+.fig2{
+    top:58%;
+    left:34%;
+}
+.fig2 img{
+    width:100px
+}
+.fig3{
+    top:12%;
+    left:34%;
+}
+.fig3 img{
+    width:100px
+}
+.fig4{
+    top:25%;
+    left:22%;
+}
+.fig4 img{
+    width:100px
+}
+.prof{
+    top:32%;
+    left:55%
+}
+h3{
+    position:absolute;
+    top:90%;
+    left:85%;
+}
+@media screen and (max-width:900px){
     figure{
         overflow: hidden;
         position: absolute;
         display:flex;
         flex-direction: column;
         align-items: center;
+        color:white
     }
     figcaption{
         font-size:25px
     }
     .fig1{
-        top:32%;
+        top:38%;
         left:2%;
+    }
+    .fig1 img{
+        width:50px;
     }
     .fig2{
         top:53%;
         left:20%;
     }
+    .fig2 img{
+        width:50px;
+    }
     .fig3{
         top:12%;
-        left:20%;
+        left:18%;
+    }
+    .fig3 img{
+        width:50px;
+    }
+    .fig4{
+        top:25%;
+        left:6%;
+    }
+    .fig4 img{
+        width:50px;
     }
     .prof{
         top:32%;
@@ -46,6 +117,8 @@ figure{
         width:100px;
         border-radius: 50%;
         overflow:hidden;
+        border:solid;
+        border-color: white;
     }
     .profimage{
         /* border-radius: 50%; */
