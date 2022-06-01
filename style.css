@@ -34,7 +34,7 @@ figure{
     left:22%;
 }
 .fig1 img{
-    max-width:100px
+    width:100px
 }
 .fig2{
     top:58%;
@@ -111,7 +111,7 @@ h3{
         left:55%
     }
     .imgCont{
-    
+
         text-align: center;
         height:100px;
         width:100px;
