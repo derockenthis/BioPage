@@ -1,0 +1,61 @@
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #8D99AE;
+    font-family: 'Courier New', Courier, monospace;
+}
+figure{
+    overflow: hidden;
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width:800px){
+    figure{
+        overflow: hidden;
+        position: absolute;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    figcaption{
+        font-size:25px
+    }
+    .fig1{
+        top:32%;
+        left:2%;
+    }
+    .fig2{
+        top:53%;
+        left:20%;
+    }
+    .fig3{
+        top:12%;
+        left:20%;
+    }
+    .prof{
+        top:32%;
+        left:55%
+    }
+    .imgCont{
+    
+        text-align: center;
+        height:100px;
+        width:100px;
+        border-radius: 50%;
+        overflow:hidden;
+    }
+    .profimage{
+        /* border-radius: 50%; */
+        width:100px;
+        height:100px;
+        object-fit:cover;
+    }
+    h3{
+        position:absolute;
+        top:90%;
+        left:48%;
+    }
+}
