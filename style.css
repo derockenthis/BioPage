@@ -1,10 +1,18 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    
+}
 a{
     text-decoration: none;
 }
 body{
-    background-color: #8D99AE;
+    background-color: #E0E0CE;
+    /* background-image: url(./img/retrofuture.jpg); */
     font-family: 'Courier New', Courier, monospace;
-    color:white
+    /* color:white; */
+    padding:0;
+    
 }
 figure{
     overflow: hidden;
@@ -61,6 +69,22 @@ figure{
     top:32%;
     left:55%
 }
+.section{
+    height:100vh
+}
+
+header{
+    display:block;
+    background-color: #F2AF29;
+    width:100%;
+    height:8vh;
+}
+.userName{
+    /* margin-block-start: 0.67em;
+    margin-block-end: 0.67em; */
+    padding-top: 1em;
+    padding-left:.5em;
+}
 h3{
     position:absolute;
     top:90%;
@@ -73,42 +97,42 @@ h3{
         display:flex;
         flex-direction: column;
         align-items: center;
-        color:white
+        /* color:white */
     }
     figcaption{
         font-size:25px
     }
     .fig1{
         top:50%;
-        left:2%;
+        left:4%;
     }
     .fig1 img{
         width:50px;
     }
     .fig2{
         top:67%;
-        left:20%;
+        left:22%;
     }
     .fig2 img{
         width:50px;
     }
     .fig3{
         top:12%;
-        left:18%;
+        left:20%;
     }
     .fig3 img{
         width:50px;
     }
     .fig4{
         top:30%;
-        left:6%;
+        left:8%;
     }
     .fig4 img{
         width:50px;
     }
     .prof{
         top:37%;
-        left:55%
+        left:57%
     }
     .imgCont{
 
@@ -129,6 +153,6 @@ h3{
     h3{
         position:absolute;
         top:90%;
-        left:48%;
+        left:50%;
     }
 }
